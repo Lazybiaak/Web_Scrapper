@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+textarea, select, button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+.card {
+  background: #334155;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.allotted { color: #22c55e; }
+.not { color: #ef4444; }
